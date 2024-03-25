@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import AuthorForm from "./components/AuthorForm";
+import FetchedAuthorList from "./components/FetchedAuthorList";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {/* Apply container class */}
+      <h1>Author Submission Form</h1>
+      <AuthorForm />
+      <hr />
+      <h1>Fetch Authors</h1>
+      <FetchedAuthorList />
     </div>
   );
-}
+};
 
 export default App;
