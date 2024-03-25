@@ -11,7 +11,7 @@ This is a single-page application (SPA) created using React JS. The app allows u
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/assessment1.git
+   git clone https://github.com/YowSiaoKang/assessment1.git
 
 2. Navigate to the project directory:
 
