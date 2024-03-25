@@ -2,9 +2,9 @@
 
 This is a single-page application (SPA) created using React JS. The app allows users to submit author names via a form and displays the submitted names on the page. Additionally, it retrieves a list of users from the JSONPlaceholder API and displays them on the page.
 
-![Submit Function](public\SubmitFunction.jpeg "Submit Function")
+![Submit Function](public/SubmitFunction.jpeg "Submit Function")
 
-![Fetch Function](public\FetchFunction.jpeg "Fetch Function")
+![Fetch Function](public/FetchFunction.jpeg "Fetch Function")
 
 ## Installation
 
